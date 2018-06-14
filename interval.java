@@ -9,7 +9,7 @@ class Interval {
 
 class Solution {
     
-    public static union(List<Interval> list1, List<Interval> list2) {
+    public static List<Interval> union(List<Interval> list1, List<Interval> list2) {
         if (list1.isEmpty()) return list2;
         if (list2.isEmpty()) return list1;
         List<Interval> res = new ArrayList<Interval>();
@@ -22,6 +22,7 @@ class Solution {
         while (curr != null) {
             
         }*/
+        return res;
     }
     
     public static List<Interval> intersect(List<Interval> list1, List<Interval> list2) {
